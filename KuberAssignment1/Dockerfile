@@ -8,4 +8,4 @@ COPY target/final-build.jar final-build.jar
 CMD ["java", "-jar", "final-build.jar"]
 
 # Optionally, you can expose a port if your application listens on one
-EXPOSE 8089
+EXPOSE 8080
